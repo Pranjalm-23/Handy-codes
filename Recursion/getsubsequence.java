@@ -21,10 +21,13 @@ public class Main {
         ArrayList<String> recursionResult = gss(restOfString);
 
         ArrayList<String> myResult = new ArrayList<>();
+
+        //if no
         for(String rstr : recursionResult){
           myResult.add(""+rstr);
         }
 
+        // if yes
         for(String rstr : recursionResult){
           myResult.add(ch+rstr);
         }

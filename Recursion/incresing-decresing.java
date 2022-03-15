@@ -3,20 +3,23 @@ import java.util.*;
 
 public class Main {
 
-  public static void main(String[] args) throws Exception {
-    // write your code here
+    public static void main(String[] args) throws Exception {
+        // write your code here
     Scanner scan = new Scanner(System.in);
     int n = scan.nextInt();
     scan.close();
-    printIncreasing(n);
-  }
+    pdi(n);
+  
+    }
 
-  public static void printIncreasing(int n) {
+    public static void pdi(int n){
     if (n == 0) {
       return;
     }
-    printIncreasing(n - 1);
     System.out.println(n);
-  }
+    pdi(n - 1);
+    System.out.println(n);
+  
+    }
 
 }

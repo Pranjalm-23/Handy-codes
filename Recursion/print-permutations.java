@@ -17,6 +17,7 @@ public class Main {
       System.out.println(asf);
     }
 
+    //options are explored using loops
     for (int i = 0; i < str.length(); i++) {
       char ch = str.charAt(i);
       String strLeft = str.substring(0, i);

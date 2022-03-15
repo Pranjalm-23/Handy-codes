@@ -15,7 +15,6 @@ public class Main {
     if (n == 0) {
       return;
     }
-    System.out.println(n);
     printIncreasing(n - 1);
     System.out.println(n);
   }

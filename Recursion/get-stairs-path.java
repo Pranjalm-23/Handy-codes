@@ -23,8 +23,8 @@ public class Main {
 
 
        ArrayList<String> paths1 = getStairPaths(n-1);
-       ArrayList<String> paths2 = getStairPaths(n-1);
-       ArrayList<String> paths3 = getStairPaths(n-1);
+       ArrayList<String> paths2 = getStairPaths(n-2);
+       ArrayList<String> paths3 = getStairPaths(n-3);
 
        ArrayList<String> paths = new ArrayList<>();
 
