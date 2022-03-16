@@ -25,7 +25,7 @@ public class Main {
     ArrayList<String> recResult = getKPC(restOfString);
     ArrayList<String> myResult = new ArrayList<>();
 
-    String codeForCh = codes[ch - 48]; // to convert to the real integer value from ascii (48 = 'a')
+    String codeForCh = codes[ch - 48]; // to convert to the real integer value from ascii (48 = '0')
     for (int i = 0; i < codeForCh.length(); i++) {
       char chCode = codeForCh.charAt(i);
       for (String rstr : recResult) {
