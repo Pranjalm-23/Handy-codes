@@ -21,7 +21,7 @@ public class Main {
             }
             st.pop();
           }
-        }else {
+        } else {
           st.push(ch);
         }
       }
