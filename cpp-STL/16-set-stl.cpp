@@ -34,6 +34,19 @@ for(set<int>::iterator it = s.begin(); it != s.end(); it++){
 
 
 
+set<int>s1;
+	pair<set<int>::iterator, bool> ret;
+	s1.insert(1);
+	s1.insert(5);
+	s1.insert(10);
+	s1.insert(3);
+	ret = s1.insert(1);
+	cout<<ret.second<<endl;
+
+
+
   return 0;
 
 }
+
+//lowerbound for values not present in set gives iterator to size of set

@@ -22,10 +22,10 @@ int main(){
   }
 
 
-  while(!pq.empty(){
+  while(!pq.empty()){
     cout<< pq.top()<<" ";  //O(1)
     pq.pop();  //O(logn)
-  })
+  }
 
 
 
