@@ -1,0 +1,1 @@
+// FileInputStream("name.txt")  // bytestream
