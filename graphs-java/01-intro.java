@@ -28,7 +28,7 @@ public class Main {
     int vertices = 7; //0 1 2 3 4 5 6
     ArrayList[] graph = new ArrayList[7];
 
-    //This is as per the diagram (fig-13)
+    // Source, neighbor, weight
 
     graph[0].add(new Edge(0, 1, 10));
     graph[0].add(new Edge(0, 2, 20));

@@ -18,6 +18,7 @@ public class Main {
       this.src = src;
       this.nbr = nbr;
       this.wt = wt;
+      // These are specifications of an edge;
     }
   }
 
