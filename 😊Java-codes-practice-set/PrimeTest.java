@@ -1,14 +1,14 @@
-imimport java.util.*;
+import java.util.*;
 
 
-public class Main {
+class PrimeTest  {
 
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     int t = scan.nextInt();
 
     for (int i = 0; i < t; i++) {
-      int n = scn.nextInt();
+      int n = scan.nextInt();
 
       int div = 2;
       while (div * div <= n) {
@@ -24,6 +24,7 @@ public class Main {
         System.out.println("not prime");
       }
     }
+    scan.close();
 
   }
 }
